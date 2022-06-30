@@ -12,7 +12,8 @@ pip install --user numpy
 pip install --user matplotlib
 
 # How to use
-（1）首先在BP_main.py的main()中创建网络对象，对于的代码如下：\\
+（1）首先在BP_main.py的main()中创建网络对象，对于的代码如下：
+
 network = nnm.neuralNetworkModel(learningRate = 0.05)     # 定义网络对象，可设置参数为学习率
 
 network.addLayer(8, inputShape=[1])                       # 添加隐藏层，第一个参数为该层神经元数，第二个参数为输入训练集的规模，传递函数目前只有log-sigmoid
