@@ -34,6 +34,6 @@ main(input_x=x, input_y=y, epoch=10000)
 # 结果展示 Result
 在main()函数中调用类的函数即可。
 ```
-network.netShow(min=0, max=6, step=0.2, compare=True, x_compare=input_x, y_compare=input_y)  # 前三个为验证参数，compara确定是否余目标函数对比（需提供最后两个参数）  
+network.netShow(min=0, max=6, step=0.2, compare=True, x_compare=input_x, y_compare=input_y)  # 前三个为验证集参数，compara确定是否余目标函数对比（需提供最后两个参数）  
 network.summary('outfile.txt')  # 将网络信息输出到文本
 ```
