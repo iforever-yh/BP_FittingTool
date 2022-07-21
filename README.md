@@ -26,6 +26,7 @@ network.addLayer(1, transferFunction='pruelin')           # 设置输出层，�
 x, y=tsg.genpower(-3,3,0.1,3)                             # 参数格式(min, max, step)
 ```
 + 也可以自定义输入（输入要求为list）
+
 3.调用main()执行：
 ```
 main(input_x=x, input_y=y, epoch=10000)
