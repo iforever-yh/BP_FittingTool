@@ -1,6 +1,6 @@
 # BP_FittingTool
 构建神经网络，使用BP（反向传播算法）拟合函数。  
-Build a Neural Network to fit functions with the Backpropagation Algorithm.
+Build a Neural Network to fit functions using the Backpropagation Algorithm.
 
 # 需要安装的库 Requirements
 numpy, matplotlib
