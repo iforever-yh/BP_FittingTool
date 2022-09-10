@@ -2,7 +2,7 @@
 构建神经网络，使用BP（反向传播算法）拟合函数。  
 Build a Neural Network to fit functions with the Backpropagation Algorithm.
 
-# 需要安装的库 Libs you need
+# 需要安装的库 Requirements
 numpy, matplotlib
 
 windows平台可在cmd中使用下面的命令安装库。  
