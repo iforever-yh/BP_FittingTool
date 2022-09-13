@@ -2,7 +2,7 @@
 构建神经网络，使用BP（反向传播算法）拟合函数。  
 Build a Neural Network to fit functions using the Backpropagation Algorithm.
 
-# 需要安装的库 Requirements
+# Requirements 需要安装的库
 numpy, matplotlib
 
 windows平台可在cmd中使用下面的命令安装库。  
@@ -12,7 +12,7 @@ pip install --user numpy
 pip install --user matplotlib
 ```
 
-# 使用方法 How to use
+# How to use 使用方法
 1.在BP_main.py的main()中创建网络对象，对于的代码如下：
 ```
 network = nnm.neuralNetworkModel(learningRate = 0.05)     # 定义网络对象，可设置参数为学习率  
@@ -32,7 +32,7 @@ x, y=tsg.genpower(-3,3,0.1,3)                             # 参数格式(min, ma
 main(input_x=x, input_y=y, epoch=10000)
 ```
 
-# 结果展示 Result
+# Result 结果展示
 在main()函数中调用类的函数即可。
 ```
 network.netShow(min=0, max=6, step=0.2, compare=True, x_compare=input_x, y_compare=input_y)  # 前三个为验证集参数，compara确定是否余目标函数对比（需提供最后两个参数）  
